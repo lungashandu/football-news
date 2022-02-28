@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <TextView
-        android:id="@+id/title_textview"
+        android:id="@+id/title_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -26,7 +26,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
-        android:layout_below="@id/title_textview"
+        android:layout_below="@id/title_textView"
         tools:text="Live Football"
         android:textAppearance="@style/TextAppearance.Material3.TitleSmall"/>
 
@@ -37,7 +37,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
-        android:layout_below="@id/title_textview"
+        android:layout_below="@id/title_textView"
         android:layout_alignParentEnd="true"
         tools:text="2022/02/27"
         android:textAppearance="@style/TextAppearance.Material3.TitleSmall"/>
