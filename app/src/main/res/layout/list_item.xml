@@ -49,6 +49,6 @@
         android:layout_marginTop="8dp"
         android:layout_toStartOf="@id/date_TextView"
         android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
-        tools:text="Date Published: " />
+        android:text="@string/date_published" />
 
 </RelativeLayout>
