@@ -44,7 +44,7 @@ public class ArticleAdapter extends ArrayAdapter<Article> {
     }
 
     public String createDateFormat(String date) {
-        final String LOCATION_SEPARATOR = "z";
+        final String LOCATION_SEPARATOR = "T";
         if (date.contains(LOCATION_SEPARATOR)) {
             String[] datePublished = date.split(LOCATION_SEPARATOR);
             return datePublished[0];
