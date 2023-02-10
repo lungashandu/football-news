@@ -2,4 +2,6 @@
     <string name="app_name">Football News</string>
     <string name="slogan">Powered By The Guardian</string>
     <string name="date_published">Date Published:</string>
+    <string name="empty">No Articles Found</string>
+    <string name="noConnection">No Internet Connection</string>
 </resources>
